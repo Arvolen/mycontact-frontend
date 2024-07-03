@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import {  Link, useNavigate } from 'react-router-dom';
-import api from '../utils/Helpers';
 import axios, { AxiosResponse } from 'axios';
 import './Admin.css';
 
