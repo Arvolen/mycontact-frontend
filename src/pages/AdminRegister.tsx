@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import {  Link, useNavigate } from 'react-router-dom';
-import api from '../utils/Helpers';
 import axios, { AxiosResponse } from 'axios';
 import './Admin.css';
 
@@ -16,7 +15,7 @@ type ResponseData = {
     token: string;
 };
 
-const VITE_API_BASE_URL = 'Localhost:5000/api/user';
+const VITE_API_BASE_URL = 'http://localhost:5000/api/user';
 
 const AdminRegister: React.FC = () => {
     const [formData, setFormData] = useState<FormData>({
