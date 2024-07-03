@@ -16,7 +16,7 @@ type ResponseData = {
     token: string;
 };
 
-const VITE_API_BASE_URL = 'Localhost:5000/api/user';
+const VITE_API_BASE_URL = 'http://localhost:5000/api/user';
 
 const AdminRegister: React.FC = () => {
     const [formData, setFormData] = useState<FormData>({

@@ -12,7 +12,7 @@ type ResponseData = {
     accessToken: string;
 }
 
-const VITE_API_BASE_URL = 'Localhost:5000/api/user'
+const VITE_API_BASE_URL = 'http://localhost:5000/api/user'
 
 const AdminLogin: React.FC = () => {
     const [formData, setFormData] = useState<FormData>({
